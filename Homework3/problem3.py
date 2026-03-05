@@ -3,7 +3,7 @@ exam1 = float (input ("Enter exam 1 score:"))
 exam2 = float (input ("Enter exam 2 score:"))
 exam3 = float (input ("Enter exam 3 score:"))
 
-average = (Exam1 + Exam2 + Exam3) / 3
+average = (exam1 + exam2 + exam3) / 3
 
 if average >= 90:
     Grade = "A"
