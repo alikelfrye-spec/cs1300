@@ -1,7 +1,7 @@
-Name = input ("Enter students name:")
-Exam1 = float (input ("Enter exam 1 score:"))
-Exam2 = float (input ("Enter exam 2 score:"))
-Exam3 = float (input ("Enter exam 3 score:"))
+name = input ("Enter students name:")
+exam1 = float (input ("Enter exam 1 score:"))
+exam2 = float (input ("Enter exam 2 score:"))
+exam3 = float (input ("Enter exam 3 score:"))
 
 average = (Exam1 + Exam2 + Exam3) / 3
 
@@ -40,9 +40,9 @@ else:
 print ("\n"+ "="*30)
 print ("   Grade report")
 print (f"Student:      {Name}")
-print (f"Exam1:       {Exam1}")
-print (f"Exam2:       {Exam2}")
-print (f"Exam3:       {Exam3}")
+print (f"Exam1:       {exam1}")
+print (f"Exam2:       {exam2}")
+print (f"Exam3:       {exam3}")
 print ("\n"+ "="*30)
 print (f"Average:   {average}")
 print (f"letter grade:{Grade}")
