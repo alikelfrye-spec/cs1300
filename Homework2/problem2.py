@@ -1,5 +1,4 @@
 sentence = input("Enter a sentence:")
-vowels = "A,a,E,e,I,i,O,o,U,u"
 
 print ("=== TEXT ANALYZER ===")
 
