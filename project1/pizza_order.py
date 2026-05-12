@@ -89,7 +89,7 @@ while attempts < 3:
         discount = 0.10
         print ("10 percent discount applied.")
     elif code == "HALFOFF":
-        discount - 0.50
+        discount = 0.50
         print ("50 percent discount applied.")
         break
     else:
