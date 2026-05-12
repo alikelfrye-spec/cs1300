@@ -81,15 +81,15 @@ if not order_descriptions:
 else:
     discount = 0.0
     attempts = 0
-while attempts < 3: 
-    code = input ("Enter discount code or 'none':").upper()
-    if code == "NONE":
-        break
-    elif code == "STUDENT10":
-        discount = 0.10
-        print ("10 percent discount applied.")
-    elif code == "HALFOFF":
-        discount = 0.50
+    while attempts < 3: 
+        code = input ("Enter discount code or 'none':").upper()
+        if code == "NONE":
+            break
+        elif code == "STUDENT10":
+            discount = 0.10
+            print ("10 percent discount applied.")
+        elif code == "HALFOFF":
+            discount = 0.50
         print ("50 percent discount applied.")
         break
     else:
@@ -111,7 +111,7 @@ for i in range (len(order_descriptions)):
 
 discount_amount = subtotal * discount 
 tax = (subtotal - discount_amount) * 0.07
-final_total = (subtotal - discount_amount) - tax
+final_total = (subtotal - discount_amount) + tax
 
 print (decorative_border)
 print(f"Subtotal:   ${subtotal:>6.2f}")
