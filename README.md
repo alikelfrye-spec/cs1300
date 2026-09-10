@@ -6,3 +6,4 @@ This repository contains my Python programming exercises and prijects.
 - Name: [Aliyah frye]
 - Course:[CS 1300]
 - School: [Indiana Tech]# cs1350
+# cs1350
